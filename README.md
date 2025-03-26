@@ -1,90 +1,92 @@
-# NoticeAI
 
-News Researcher with Gemini AI is a Python application that combines web scraping with AI-powered analysis to deliver news summaries. The application features:
 
-Core Functionality:
+ 🔍 News Researcher with Gemini AI is a Python application that combines web scraping with AI-powered analysis to deliver news summaries. The application features:
 
-Searches for news articles based on user-defined topics
+» Core Functionality:
 
-Filters results by time period (7 days, month, year, or any period)
+» Searches for news articles based on user-defined topics
 
-Allows selection of 1-10 news articles to analyze
+» Filters results by time period (7 days, month, year, or any period)
 
-Generates AI-powered summaries using Google's Gemini API
+» Allows selection of 1-10 news articles to analyze
 
-Technical Implementation:
+» Generates AI-powered summaries using Google's Gemini API
 
-PyQt5-based graphical interface with responsive design
+» Technical Implementation:
 
-Multithreaded architecture for background processing
+» PyQt5-based graphical interface with responsive design
 
-Modular structure with separate worker classes for news retrieval and AI processing
+» Multithreaded architecture for background processing
 
-Simulated news data (ready for integration with real APIs)
+» Modular structure with separate worker classes for news retrieval and AI processing
 
-User Experience:
+» Simulated news data (ready for integration with real APIs)
 
-Clean sidebar interface for search parameters
+» User Experience:
 
-Scrollable news display area
+» Clean sidebar interface for search parameters
 
-One-click access to original articles
+» Scrollable news display area
 
-Progress indicators during operations
+» One-click access to original articles
 
-Error handling with user-friendly messages
+» Progress indicators during operations
 
-Key Components:
+» Error handling with user-friendly messages
 
-NewsWorker: Handles news retrieval (currently simulated)
+» Key Components:
 
-GeminiWorker: Manages AI summarization
+» NewsWorker: Handles news retrieval (currently simulated)
 
-NewsApp: Main application window with all UI components
+» GeminiWorker: Manages AI summarization
 
-The application demonstrates effective integration of Python GUI development with generative AI capabilities.
+» NewsApp: Main application window with all UI components
 
-Resumo em Português
-Pesquisador de Notícias com Gemini AI é uma aplicação Python que combina web scraping com análise por IA para fornecer resumos de notícias. O aplicativo possui:
+» The application demonstrates effective integration of Python GUI development with generative AI capabilities.
 
-Funcionalidades Principais:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 🔍 Pesquisador de Notícias com Gemini AI é uma aplicação Python que combina web scraping com análise por IA para fornecer resumos de notícias. O aplicativo possui:
 
-Busca artigos de notícias por tópicos definidos pelo usuário
+» Funcionalidades Principais:
 
-Filtra resultados por período (7 dias, mês, ano ou qualquer período)
+» Busca artigos de notícias por tópicos definidos pelo usuário
 
-Permite selecionar de 1 a 10 notícias para análise
+» Filtra resultados por período (7 dias, mês, ano ou qualquer período)
 
-Gera resumos com tecnologia AI usando a API Gemini do Google
+» Permite selecionar de 1 a 10 notícias para análise
 
-Implementação Técnica:
+» Gera resumos com tecnologia AI usando a API Gemini do Google
 
-Interface gráfica baseada em PyQt5 com design responsivo
+» Implementação Técnica:
 
-Arquitetura multithread para processamento em segundo plano
+» Interface gráfica baseada em PyQt5 com design responsivo
 
-Estrutura modular com classes separadas para recuperação de notícias e processamento AI
+» Arquitetura multithread para processamento em segundo plano
 
-Dados de notícias simulados (pronto para integração com APIs reais)
+» Estrutura modular com classes separadas para recuperação de notícias e processamento AI
 
-Experiência do Usuário:
+» Dados de notícias simulados (pronto para integração com APIs reais)
 
-Interface lateral limpa para parâmetros de busca
+» Experiência do Usuário:
 
-Área rolável de exibição de notícias
+» Interface lateral limpa para parâmetros de busca
 
-Acesso com um clique aos artigos originais
+» Área rolável de exibição de notícias
 
-Indicadores de progresso durante operações
+» Acesso com um clique aos artigos originais
 
-Tratamento de erros com mensagens amigáveis
+» Indicadores de progresso durante operações
 
-Componentes Chave:
+» Tratamento de erros com mensagens amigáveis
 
-NewsWorker: Gerencia a recuperação de notícias (atualmente simulado)
+» Componentes Chave:
 
-GeminiWorker: Controla a sumarização por AI
+» NewsWorker: Gerencia a recuperação de notícias (atualmente simulado)
 
-NewsApp: Janela principal do aplicativo com todos componentes de UI
+» GeminiWorker: Controla a sumarização por AI
+
+» NewsApp: Janela principal do aplicativo com todos componentes de UI
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 A aplicação demonstra uma integração eficaz entre desenvolvimento de GUI Python e capacidades de IA generativa.
